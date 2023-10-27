@@ -5,10 +5,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch index.js",
+      "name": "Launch login.jsx",
       "type": "chrome",
       "request": "launch",
       "port": 9288,
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch index.js",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9205,
       "webRoot": "${workspaceFolder}"
     }
   ]
